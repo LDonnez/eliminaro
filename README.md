@@ -17,4 +17,4 @@ When going to a project with a log directory just type `eliminaro` in the termin
 
 `-dir=<directory` Specify a root directory
 
-`-log-dir=<log dir>` Specify a log directory where the files needs to be removed.
+`-log-dir=<log dir>` Specify a log directory where files needs to be removed.
