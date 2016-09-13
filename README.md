@@ -13,6 +13,6 @@ Log files from projects can take alot of disk space eventually, to tackle this i
 
 When going to a project with a log directory just type `eliminaro` in the terminal and all the files from the log directory will be removed.
 
-You can also specify a root dir with the `-dir=<directory>` flag.
-You can also specify a log dir with the `-log-dir=<log directory> flag.
+You can also specify a root dir with the `-dir=<directory>` flag.*
+You can also specify a log dir with the `-log-dir=<log directory> flag.*
 
