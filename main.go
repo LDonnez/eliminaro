@@ -9,9 +9,11 @@ import (
 )
 
 var dir string
+var logDir string
 
 func init() {
 	flag.StringVar(&dir, "dir", "log", "dir")
+	flag.StringVar(&logDir, "log-dir", "log", "dir")
 	flag.Parse()
 	if dir == "log" {
 		dir = "."
@@ -20,7 +22,7 @@ func init() {
 }
 
 func main() {
-	logDir := dir + "/log"
+	logDir := dir + "/" + logDir
 	logFiles, _ := ioutil.ReadDir(logDir)
 
 	if len(logFiles) == 0 {
